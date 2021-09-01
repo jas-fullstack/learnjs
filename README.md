@@ -40,5 +40,33 @@ testcallbackfunc(cb = (name) => {
  console.log("after call back")
 })
 ```
+
+ ###  Qustions : adding and removing elements from array.. push , unshift , pop ,shift
   
-  
+  ```
+  //PUSH INTO Array
+//push method will always push item last into array.we can push multiple or single value into an array
+const hobbies = ['sports','Cooking']
+hobbies.push('Reading','music');
+console.log("hobbiles--->",hobbies)
+
+//unshift ...with this we can add item begning of the array
+const hobbies_unshift = ['sports','Cooking']
+hobbies_unshift.unshift('coading');
+console.log("hobbies_unshift--->",hobbies_unshift)
+
+
+//pop this will remove item from last from the array
+const hobbies_pop = ['sports','Cooking']
+hobbies_pop.pop();
+console.log("pop--->",hobbies_pop)
+
+//shift this will remove item from last from the array
+const hobbies_shift = ['sports','Cooking']
+hobbies_shift.shift();
+console.log("shift--->",hobbies_shift)
+```
+
+
+
+
