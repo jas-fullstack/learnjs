@@ -25,5 +25,20 @@ testcallbackfunc(cb = (name) => {
  console.log(name)
 })
   ```
+  ```
+  
+setTimeout(function(){ console.log('name will print there') }, 3000);
+console.log("after call back2222")
+
+function testcallbackfunc(cb){
+setTimeout(function(){ cb('name will print there') }, 3000);
+		
+}
+testcallbackfunc(cb = (name) => {
+	
+ console.log(name)
+ console.log("after call back")
+})
+```
   
   
