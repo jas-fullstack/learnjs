@@ -26,7 +26,7 @@ testcallbackfunc(cb = (name) => {
 })
   ```
   ```
-  
+Another example with settimeout
 setTimeout(function(){ console.log('name will print there') }, 3000);
 console.log("after call back2222")
 
