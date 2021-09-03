@@ -67,6 +67,7 @@ hobbies_shift.shift();
 console.log("shift--->",hobbies_shift)
 ```
 
+###  Qustions : this keyword
 
 
 
