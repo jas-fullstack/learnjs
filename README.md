@@ -69,5 +69,14 @@ console.log("shift--->",hobbies_shift)
 
 ###  Qustions : this keyword
 
+if in a method this keyword refer to the current object. 
 
+const person = {
+  firstName: "John",
+  lastName : "Doe",
+  id       : 5566,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
 
