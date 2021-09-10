@@ -80,3 +80,6 @@ const person = {
   }
 };
 
+
+### lexical scope
+lexcal score mean we can access variable which is declared outside the function. but we cant access variable out side the function which is declared inside the function.
