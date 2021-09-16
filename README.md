@@ -80,9 +80,12 @@ const person = {
   }
 };
 
+### Scope in java script
+Global scope , function scope, block scope
 
 ### lexical scope
 lexcal score mean we can access variable which is declared outside the function. but we cant access variable out side the function which is declared inside the function.
+
 ### Qustions : map , reduce and filter
 #### map :
 it's used to loop through array and return us modified result of array. we can chain the method with map like reduce or filter.
@@ -92,6 +95,13 @@ Reduce will take array and return the final modified result. it should have two 
 ###### `[1, 2, 3, 4, 5].reduce(function (acc, current) {return acc + current}, 0) //zero means start from where e.g 0`
 #### Filter : 
 Filter will return the filtred items of array.
+
+### pure funcions 
+Pure functions are the functions which does return same result every time e.g a function doing sum of values will always return same result.
+### event loop
+Event loop plays important role in nodejs processing. when we execure any program in node js it goes into the call stack after the execution it goes into call back que. now the job of event loop is to make sync between call back que and call stack. 
+if call stack is empty then event loop move program from call back que to call stack. 
+
 
 
 
