@@ -94,3 +94,4 @@ Reduce will take array and return the final modified result. it should have two 
 Filter will return the filtred items of array.
 
 
+
