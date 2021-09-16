@@ -83,5 +83,14 @@ const person = {
 
 ### lexical scope
 lexcal score mean we can access variable which is declared outside the function. but we cant access variable out side the function which is declared inside the function.
-### Qustions : what is babel
+### Qustions : map , reduce and filter
+#### map :
+it's used to loop through array and return us modified result of array. we can chain the method with map like reduce or filter.
+###### ` [1, 2, 3, 4, 5].map((x)=> x * x)`
+#### reduce : 
+Reduce will take array and return the final modified result. it should have two params one is accumulator and other is currentValue. But I can have index as well. 
+###### `[1, 2, 3, 4, 5].reduce(function (acc, current) {return acc + current}, 0) //zero means start from where e.g 0`
+#### Filter : 
+Filter will return the filtred items of array.
+
 
