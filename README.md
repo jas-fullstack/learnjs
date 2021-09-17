@@ -102,6 +102,10 @@ Pure functions are the functions which does return same result every time e.g a 
 Event loop plays important role in nodejs processing. when we execure any program in node js it goes into the call stack after the execution it goes into call back que. now the job of event loop is to make sync between call back que and call stack. 
 if call stack is empty then event loop move program from call back que to call stack. 
 
+### undefined vs undeclared vs null
+undefined : is when variable is declared but not assigned any value.
+undeclared : when we try to assign any value without declaration. 
+null: when we assing null value to variable
 
 
 
