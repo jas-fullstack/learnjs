@@ -107,5 +107,8 @@ undefined : is when variable is declared but not assigned any value.
 undeclared : when we try to assign any value without declaration. 
 null: when we assing null value to variable
 
+### modules in javascript.
+export to export function or variable.import to include file.
+
 
 
