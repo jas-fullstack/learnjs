@@ -127,3 +127,17 @@ let two = generator.next();
 alert(JSON.stringify(one)); // {value: 1, done: false}
 alert(JSON.stringify(two)); // {value: 1, done: false}
 ```
+- Generators are iterable : we can make loop of generator functions. but it will not print value of return.
+```
+function* generateSequence() {
+  yield 1;
+  yield 2;
+  return 3;
+}
+
+let generator = generateSequence();
+
+for(let value of generator) {
+  alert(value); // 1, then 2
+}
+```
