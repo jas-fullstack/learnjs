@@ -109,6 +109,21 @@ null: when we assing null value to variable
 
 ### modules in javascript.
 export to export function or variable.import to include file.
+ 
+### generator functions
+Normal function return value single time but in the generator function we can return values multiples time accorting to the requirement using **yield** 
+syntex :
+ 
+```
+function* generateSequence() {
+  yield 1
+  yield 2
+  return 3
+}
 
-
-
+let generator = generateSequence();
+let one = generator.next();
+let two = generator.next();
+alert(JSON.stringify(one)); // {value: 1, done: false}
+alert(JSON.stringify(two)); // {value: 1, done: false}
+```
