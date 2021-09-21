@@ -141,3 +141,6 @@ for(let value of generator) {
   alert(value); // 1, then 2
 }
 ```
+
+### does typescript run on browser
+No compiler complie ts code to run on any browser. 
