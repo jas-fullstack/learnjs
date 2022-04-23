@@ -1,10 +1,19 @@
 
 ### Array functions
+#### includes
+
 ```
 ** includes -> it will check if value is available inside array or string. **
 const arr = [1,2,3,5,6,3];
-arr.includes(1);
+console.log(arr.includes(1));
 //output true
+```
+#### indexOf
+```
+indexOf() -> return the first index from element.
+const arr = [1,2,3,5,6,3];
+console.log(arr.indexOf(3));
+//output 2
 ```
 
 
