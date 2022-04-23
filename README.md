@@ -16,6 +16,14 @@ console.log(arr.indexOf(3));
 //output 2
 ```
 
+#### find
+```
+find() -> return the element based on the condition...
+const arr = [1,2,3,5,5,6,3];
+console.log(arr.find((val)=>  val > 3 ));
+//output 5
+```
+
 
 
 ### Qustions : let and var and const
