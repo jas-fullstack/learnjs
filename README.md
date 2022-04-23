@@ -1,3 +1,14 @@
+
+### Array functions
+```
+** includes -> it will check if value is available inside array or string. **
+const arr = [1,2,3,5,6,3];
+arr.includes(1);
+//output true
+```
+
+
+
 ### Qustions : let and var and const
 -The let keyword was introduced in ES6 (2015).
 -Variables defined with let cannot be Redeclared.
@@ -152,6 +163,9 @@ for(let value of generator) {
 ### does typescript run on browser
 No compiler complie ts code to run on any browser.
 
+
+
+
 # Angular
 
 ### life cycle hooks 
@@ -166,5 +180,6 @@ No compiler complie ts code to run on any browser.
 - ngDoCheck()
 - ngOnDestroy()
 ```
+
 
 
