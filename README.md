@@ -25,6 +25,16 @@ console.log(arr.find((val)=>  val > 3 ));
 ```
 
 
+#### split 
+```
+it will convert string to array..
+  
+const str = 'sanjeev kumar';
+console.log(str.split(" "));
+//output  ["sanjeev", "kumar"]
+```
+
+
 
 ### Qustions : let and var and const
 -The let keyword was introduced in ES6 (2015).
