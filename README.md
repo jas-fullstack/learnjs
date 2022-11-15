@@ -35,6 +35,20 @@ console.log(str.split(" "));
 ```
 
 
+#### splice 
+```
+we can push item into array at any place with delete or not.
+  
+let data = ["jan","march","apprail"];
+
+//data.splice(index to add,index to remvoe,"value);
+
+data.splice(data.length,0,"feb");
+console.log(data);
+
+```
+
+
 
 ### Qustions : let and var and const
 -The let keyword was introduced in ES6 (2015).
