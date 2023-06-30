@@ -5,7 +5,7 @@
  *     summary: Example POST endpoint
  *     consumes:
  *       - application/json
- *     produces:
+ *     produces: 
  *       - application/json
  *     parameters: []
  *     responses:
