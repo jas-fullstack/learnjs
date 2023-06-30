@@ -5,9 +5,14 @@
  *     summary: Example POST endpoint
  *     consumes:
  *       - application/json
- *     produces: 
+ *     produces:
  *       - application/json
- *     parameters: []
+ *     parameters:
+ *       - name: queryParam
+ *         in: query
+ *         description: Example query parameter
+ *         required: false
+ *         type: string
  *     responses:
  *       '200':
  *         description: OK
@@ -27,7 +32,6 @@
  *                 property3:
  *                   type: boolean
  */
-
 // Generate swagger specification JSON
 
 ### Array functions
