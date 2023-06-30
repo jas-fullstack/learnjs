@@ -1,3 +1,34 @@
+/**
+ * @swagger
+ * /your-endpoint:
+ *   post:
+ *     summary: Example POST endpoint
+ *     consumes:
+ *       - application/json
+ *     produces:
+ *       - application/json
+ *     parameters: []
+ *     responses:
+ *       '200':
+ *         description: OK
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: array
+ *             items:
+ *               type: object
+ *               properties:
+ *                 property1:
+ *                   type: string
+ *                 property2:
+ *                   type: integer
+ *                 property3:
+ *                   type: boolean
+ */
+
+// Generate swagger specification JSON
 
 ### Array functions
 #### includes
